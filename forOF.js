@@ -1,0 +1,1 @@
+// for of use in Array or string not in Object
