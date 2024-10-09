@@ -32,4 +32,5 @@ const user2 = {
     }
 }
 console.log(user.address.street?.bari)
-console.log(user2.address.street?.bari) // যদি এখানে ? চিহ্ন না দেই তাহলে ইরর আরবে। এটাকে বলে  optional chaning ( যদি মান পাওয়া যায় তবে,সামনে যাও, অন্যথায় undefine আসবে but Error আসবে না )
+console.log(user2.address.street?.bari) // যদি এখানে ? চিহ্ন না দেই তাহলে ইরর আরবে। এটাকে বলে  optional chaning ( যদি মান পাওয়া যায় তবে,সামনে যাও, অন্যথায় undefine আসবে but Error আসবে না 
+ 
