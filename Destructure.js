@@ -5,5 +5,6 @@ const book = {
   page: "150",
   price: 130,
 };
-const { name, writer, page, price } = book;
+const { name, writer, page, price: dam } = book;
 console.log(page);
+console.log(dam); //change variable name
