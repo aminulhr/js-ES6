@@ -1,3 +1,4 @@
-const add3 = (a,b) => a+b;
-const addnum = add3(4,5);
-console.log(addnum)
+const getAge = (person) => person.age;
+const student = { name: "Raba", age: 23 };
+const age = getAge(student);
+console.log(age);
