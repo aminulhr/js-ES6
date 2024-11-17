@@ -13,3 +13,4 @@ const book2 = [
   },
 ];
 console.log(book2[1].chapter[0].topic);
+3;
