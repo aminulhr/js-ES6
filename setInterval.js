@@ -1,6 +1,9 @@
 // setInterbal bar bar exicute hoy
-let num = 1;
-setInterval(() => {
+let num = 0;
+const clockID = setInterval(() => {
   num++;
-  console.log(num);
+  if (num > 5) {
+    clearInterval(clockID);
+  }
+  console.log(clockID, num);
 }, 2000);
