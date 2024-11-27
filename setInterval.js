@@ -1,4 +1,4 @@
-// setInterbal bar bar exicute hoy
+// setInterval bar bar exicute hoy
 let num = 0;
 const clockID = setInterval(() => {
   num++;
@@ -6,4 +6,4 @@ const clockID = setInterval(() => {
     clearInterval(clockID);
   }
   console.log(clockID, num);
-}, 2000);
+}, 3000);
